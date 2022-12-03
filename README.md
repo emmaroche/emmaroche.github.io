@@ -1,4 +1,6 @@
-# Welcome to the website for emmaroche
+# Emma Roche's GitHub Page
+
+# Welcome to the website for https://github.com/emmaroche
 
 Starter Tech profile for Emma Roche
 
