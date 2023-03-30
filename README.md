@@ -1,4 +1,4 @@
-# Emma Roche's GitHub Wesbite Portfolio
+# Emma Roche's GitHub Website Portfolio
 
 ## About
 
@@ -25,7 +25,7 @@ The Careers Guidance App is designed to serve as a career guidance assistant for
 
 ### GitHub Repo for Youtuber-App-MAD1: [Youtuber Android App](https://github.com/emmaroche/Youtuber-App-MAD1.git)
 
-The YouTuber app is written in Kotlin using Android Studio. It is an Android mobile application that offers a way for users to store information about their favourite YouTubers.This app is currently still being worked on.
+The YouTuber app is written in Kotlin using Android Studio. It is an Android mobile application that offers a way for users to store information about their favourite YouTubers. This app is currently still being worked on.
 
 #### Key Features / Functionality:
 
@@ -43,7 +43,7 @@ This is a Movies Web Application that was created for an assignment for a module
 
 #### Abstract: 
 
-This movies app includes 5 views on the site header menu bar which display different movie lists such as Home, Now Playing, Upcoming, Top Rated and Favourites. When you click on an individual movie card, it displays basic overview information on the selected movie, as well as cast details and recommended movies. There are two buttons on the bottom of the movie cards, one is a favourites button that when you click on it, it adds that selected movie to the favourites movie list view. The other button is labeled 'Similar Movies', where you can click on that to view the similar movies to the selected movie. You can also filter the movie lists by search, genres and ratings.
+This movies app includes 5 views on the site header menu bar which display different movie lists such as Home, Now Playing, Upcoming, Top Rated and Favourites. When you click on an individual movie card, it displays basic overview information on the selected movie, as well as cast details and recommended movies. There are two buttons on the bottom of the movie cards, one is a favourites button that when you click on it, it adds that selected movie to the favourites movie list view. The other button is labelled 'Similar Movies', where you can click on that to view the similar movies to the selected movie. You can also filter the movie lists by search, genres and ratings.
 
 #### Key Features / Functionality:
 
@@ -81,17 +81,17 @@ This is a further developed version of the Movies Web Application. This purpose 
 
  + Added React App integration where the React app makes a request to the Web API which would then request data from TMDB.
 
- + Mongo integration where I connected to the mongodb database, created a db folder with an index.js file where I imported the db module into it and loaded the user data to Mongodb using seedDB.
+ + Mongo integration where I connected to the MongoDB database, created a db folder with an index.js file where I imported the db module into it and loaded the user data to MongoDB using seedDB.
 
  + Use of express middleware such as error handling in the web-api index.js and api/movies/index.js.
 
- + Can GET upcoming movies, top rated movies, now playing movies, latest movies, similar movies, reccommended movies, release dates for movies, credit and people data in API using postman.
+ + Can GET upcoming movies, top rated movies, now playing movies, latest movies, similar movies, recommended movies, release dates for movies, credit and people data in API using postman.
 
  + Can POST user registration data to API using postman.
 
 ### GitHub Repo for youtuber-app: [Youtuber App](https://github.com/emmaroche/youtuber-app.git)
 
-The YouTuber App is written in Kotlin using using InTellij IDEA CE. It is a console app that allows a user to store YouTubers and link many videos to them.
+The YouTuber App is written in Kotlin using InTellij IDEA CE. It is a console app that allows a user to store YouTubers and link many videos to them.
 
 #### Key Features / Functionality:
 
