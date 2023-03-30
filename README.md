@@ -37,7 +37,7 @@ The YouTuber app is written in Kotlin using Android Studio. It is an Android mob
 - Search and filter YouTubers
 - Mark YouTubers as favourite 
 
-### GitHub Repo for assignment1-emmaroche: [Movies Web App](https://github.com/emmaroche/assignment1-emmaroche.gitt)
+### GitHub Repo for assignment1-emmaroche: [Movies Web App](https://github.com/emmaroche/assignment1-emmaroche.git)
 
 This is a Movies Web Application that was created for an assignment for a module in Web App Development using the MERN stack (Mongo, express, react, node.js) and Visual Studio Code. The assignments purpose was to demonstrate our knowledge of the React framework by designing and developing a movies fan app.
 
