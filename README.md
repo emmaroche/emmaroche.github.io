@@ -1,4 +1,4 @@
-# Emma Roche's GitHub Website Portfolio
+# Emma Roche's GitHub Portfolio
 
 ## About
 
