@@ -118,9 +118,9 @@ This is a further developed version of the Movies Web Application. This purpose 
  
  ***
  
- ## Travel Planner App
+## Travel Planner App
  
- ### Interactive prototype (made using Figma) for a 'Travel Planner App': [Travel Planner App Prototype](https://www.figma.com/proto/w7IHJhvpnlKf4TotjqRGqJ/Travel-Planner-App?page-id=0%3A1&node-id=22-5358&viewport=586%2C490%2C0.11&scaling=min-zoom&starting-point-node-id=22%3A5358)
+### Interactive prototype (made using Figma) for a 'Travel Planner App': [Travel Planner App Prototype](https://www.figma.com/proto/w7IHJhvpnlKf4TotjqRGqJ/Travel-Planner-App?page-id=0%3A1&node-id=22-5358&viewport=586%2C490%2C0.11&scaling=min-zoom&starting-point-node-id=22%3A5358)
 
 This app was created to practise a 'User Interface Design' project, it was a personal project at first but the project further worked on and improved as part of an assignment for a module in 'Software Engineering'.
 
