@@ -38,6 +38,8 @@ The Careers Guidance App is designed to serve as a career guidance assistant for
 
 ### GitHub Repo for Youtuber-App-MAD1: [Youtuber Android App](https://github.com/emmaroche/Youtuber-App-MAD1.git)
 
+#### Abstract:
+
 The YouTuber app is written in Kotlin using Android Studio. It is an Android mobile application that offers a way for users to store information about their favourite YouTubers. This app is currently still being worked on.
 
 #### Key Features / Functionality:
@@ -62,9 +64,9 @@ The YouTuber app is written in Kotlin using Android Studio. It is an Android mob
 
 ### GitHub Repo for assignment1-emmaroche: [Movies Fan Web App](https://github.com/emmaroche/assignment1-emmaroche.git)
 
-This is a Movies Web Application that was created for an assignment for a module in Web App Development using the MERN stack (Mongo, express, react, node.js) and Visual Studio Code. The assignments purpose was to demonstrate our knowledge of the React framework by designing and developing a movies fan app.
-
 #### Abstract: 
+
+This is a Movies Web Application that was created for an assignment for a module in Web App Development using the MERN stack (Mongo, express, react, node.js) and Visual Studio Code. The assignments purpose was to demonstrate our knowledge of the React framework by designing and developing a movies fan app.
 
 This movies app includes 5 views on the site header menu bar which display different movie lists such as Home, Now Playing, Upcoming, Top Rated and Favourites. When you click on an individual movie card, it displays basic overview information on the selected movie, as well as cast details and recommended movies. There are two buttons on the bottom of the movie cards, one is a favourites button that when you click on it, it adds that selected movie to the favourites movie list view. The other button is labelled 'Similar Movies', where you can click on that to view the similar movies to the selected movie. You can also filter the movie lists by search, genres and ratings.
 
@@ -94,6 +96,8 @@ This movies app includes 5 views on the site header menu bar which display diffe
 
 ### GitHub Repo for assignment2-emmaroche: [Movies Fan Web App 2](https://github.com/emmaroche/assignment2-emmaroche.git)
 
+#### Abstract: 
+
 This is a further developed version of the Movies Web Application. This purpose of this further developed version of that app was to demonstrate knowledge of APIs, Express, Mongoose, and Authentication by developing an extension of a Movies API we used in practical classes.
 
 #### Key Features / Functionality:
@@ -119,16 +123,22 @@ This is a further developed version of the Movies Web Application. This purpose 
  ***
  
 ## Travel Planner App
- 
+
 ### Interactive prototype (made using Figma) for a 'Travel Planner App': [Travel Planner App Prototype](https://www.figma.com/proto/w7IHJhvpnlKf4TotjqRGqJ/Travel-Planner-App?page-id=0%3A1&node-id=22-5358&viewport=586%2C490%2C0.11&scaling=min-zoom&starting-point-node-id=22%3A5358)
 
-This app was created to practise a 'User Interface Design' project, it was a personal project at first but the project further worked on and improved as part of an assignment for a module in 'Software Engineering'.
+#### Abstract: 
+
+The Travel Planner app is a digital wallet/filing system. A user can add the location they are going to for their holidays and how long they plan on going for. Boarding pass, passport copy, check in details for accommodation, any transport tickets and any extra documentation can be uploaded and kept within this app. A user can also add all the attractions they plan to see on their holiday and it will also give recommendations of more attractions in the area that can be visited. The app can also provide directions for these attractions and real time updates (can be notifications based on itinerary) i.e., Museum is now closed, flight delays, weather warnings etc.
+
+At first, this app was a personal project created to practise 'User Interface Design', but the project was further worked on and improved as part of an assignment for a module in 'Software Engineering'.
 
 ***
 
 ## YouTuber Console App
 
 ### GitHub Repo for youtuber-app: [Youtuber App](https://github.com/emmaroche/youtuber-app.git)
+
+#### Abstract: 
 
 The YouTuber App is written in Kotlin using InTellij IDEA CE. It is a console app that allows a user to store YouTubers and link many videos to them.
 
@@ -147,6 +157,8 @@ The YouTuber App is written in Kotlin using InTellij IDEA CE. It is a console ap
 ## Notes Console App 
 
 ### GitHub Repo for notes-app: [Notes App](https://github.com/emmaroche/notes-app.git)
+
+#### Abstract: 
 
 The Notes App is written in Kotlin using InTellij IDEA CE. It is a console app that allows a user to store notes and to do basic CRUD on notes as well as being able to archive notes, mark notes as complete and search for notes.
 
