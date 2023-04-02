@@ -4,9 +4,9 @@
 
 A final year student studying a BSc (Hons) degree in Creative Computing at South East Technological University.
 
-## Website Content
+## Portfolio Content
 
-This website portfolio will be used to showcase apps designed and developed by Emma Roche. 
+This portfolio showcases apps designed and developed by Emma Roche. 
 
 ***
 
