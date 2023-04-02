@@ -22,10 +22,13 @@ The Careers Guidance App is designed to serve as a career guidance assistant for
 
 #### Key Features / Functionality:
 
-- Option to log in as an existing user, register as a new user or continue as a guest
-- Course Matching Questionnaire
-- Option to save questionnaire results to the Results Dashboard to view again at a later time
-- In the Results Dashboard, users can view an analysis of their results (This feature is not available to guests)
++  Option to log in as an existing user, register as a new user or continue as a guest
+
++  Course Matching Questionnaire
+
++  Option to save questionnaire results to the Results Dashboard to view again at a later time
+
++  In the Results Dashboard, users can view an analysis of their results (This feature is not available to guests)
 
 #### Interactive prototype (made using Figma) for the Careers Guidance App: [Careers Guidance iOS App Prototype](https://www.figma.com/proto/rgEVeHQKiUvBvZRrDRXuD6/FYP-UX-Design?page-id=0%3A1&node-id=8-184&viewport=-8%2C404%2C0.19&scaling=scale-down&starting-point-node-id=8%3A184)
 
@@ -39,13 +42,19 @@ The YouTuber app is written in Kotlin using Android Studio. It is an Android mob
 
 #### Key Features / Functionality:
 
-- Option to log in as an existing user or register as a new user
-- Add YouTubers with information including their name, channel name, date of birth, image, their work location (via google maps API) and a rating
-- List YouTubers
-- Edit YouTubers
-- Delete YouTubers
-- Search and filter YouTubers
-- Mark YouTubers as favourite 
++  Option to log in as an existing user or register as a new user
+
++  Add YouTubers with information including their name, channel name, date of birth, image, their work location (via google maps API) and a rating
+
++  List YouTubers
+
++  Edit YouTubers
+
++  Delete YouTubers
+
++  Search and filter YouTubers
+
++  Mark YouTubers as favourite 
 
 ***
 
@@ -125,13 +134,13 @@ The YouTuber App is written in Kotlin using InTellij IDEA CE. It is a console ap
 
 #### Key Features / Functionality:
 
-- Add, list, update, delete and search YouTubers and Videos
++  Add, list, update, delete and search YouTubers and Videos
            
-- Add YouTubers to a favourites list
++  Add YouTubers to a favourites list
            
-- Mark the videos as watched to help you keep on track of what you have and haven’t watched
++  Mark the videos as watched to help you keep on track of what you have and haven’t watched
            
-- View information about the app
++  View information about the app
 
 ***
 
