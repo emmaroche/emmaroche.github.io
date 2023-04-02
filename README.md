@@ -2,11 +2,15 @@
 
 ## About
 
-A final year student studying a BSc (Hons) degree in Creative Computing at South East Technological University
+A final year student studying a BSc (Hons) degree in Creative Computing at South East Technological University.
 
 ## Website Content
 
 This website portfolio will be used to showcase apps designed and developed by Emma Roche. 
+
+***
+
+## The Careers Guidance iOS App
 
 ### GitHub Repo for Careers-Guidance-App-FYP: [Careers Guidance iOS App](https://github.com/emmaroche/Careers-Guidance-App-FYP.git)
 
@@ -25,6 +29,10 @@ The Careers Guidance App is designed to serve as a career guidance assistant for
 
 #### Interactive prototype (made using Figma) for the Careers Guidance App: [Careers Guidance iOS App Prototype](https://www.figma.com/proto/rgEVeHQKiUvBvZRrDRXuD6/FYP-UX-Design?page-id=0%3A1&node-id=8-184&viewport=-8%2C404%2C0.19&scaling=scale-down&starting-point-node-id=8%3A184)
 
+***
+
+## The YouTuber Android App
+
 ### GitHub Repo for Youtuber-App-MAD1: [Youtuber Android App](https://github.com/emmaroche/Youtuber-App-MAD1.git)
 
 The YouTuber app is written in Kotlin using Android Studio. It is an Android mobile application that offers a way for users to store information about their favourite YouTubers. This app is currently still being worked on.
@@ -38,6 +46,10 @@ The YouTuber app is written in Kotlin using Android Studio. It is an Android mob
 - Delete YouTubers
 - Search and filter YouTubers
 - Mark YouTubers as favourite 
+
+***
+
+## Movies Fan Web App (V1)
 
 ### GitHub Repo for assignment1-emmaroche: [Movies Fan Web App](https://github.com/emmaroche/assignment1-emmaroche.git)
 
@@ -67,6 +79,10 @@ This movies app includes 5 views on the site header menu bar which display diffe
 
 + Pagination was added to the movie list pages, each page shows max 7 movie cards at a time.
 
+***
+
+## Movies Fan Web App (V2)
+
 ### GitHub Repo for assignment2-emmaroche: [Movies Fan Web App 2](https://github.com/emmaroche/assignment2-emmaroche.git)
 
 This is a further developed version of the Movies Web Application. This purpose of this further developed version of that app was to demonstrate knowledge of APIs, Express, Mongoose, and Authentication by developing an extension of a Movies API we used in practical classes.
@@ -91,9 +107,17 @@ This is a further developed version of the Movies Web Application. This purpose 
 
  + Can POST user registration data to API using postman.
  
+ ***
+ 
+ ## Travel Planner App
+ 
  ### Interactive prototype (made using Figma) for a 'Travel Planner App': [Travel Planner App Prototype](https://www.figma.com/proto/w7IHJhvpnlKf4TotjqRGqJ/Travel-Planner-App?page-id=0%3A1&node-id=22-5358&viewport=586%2C490%2C0.11&scaling=min-zoom&starting-point-node-id=22%3A5358)
 
 This app was created to practise a 'User Interface Design' project, it was a personal project at first but the project further worked on and improved as part of an assignment for a module in 'Software Engineering'.
+
+***
+
+## YouTuber Console App
 
 ### GitHub Repo for youtuber-app: [Youtuber App](https://github.com/emmaroche/youtuber-app.git)
 
@@ -109,9 +133,17 @@ The YouTuber App is written in Kotlin using InTellij IDEA CE. It is a console ap
            
 - View information about the app
 
+***
+
+## Notes Console App 
+
 ### GitHub Repo for notes-app: [Notes App](https://github.com/emmaroche/notes-app.git)
 
 The Notes App is written in Kotlin using InTellij IDEA CE. It is a console app that allows a user to store notes and to do basic CRUD on notes as well as being able to archive notes, mark notes as complete and search for notes.
+
+***
+
+## Employee Console App 
 
 ### GitHub Repo for employee-app: [Employee App](https://github.com/emmaroche/employee-app.git)
 
