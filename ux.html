@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Emma Roche - Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/stylecss.css" rel="stylesheet">
+</head>
+
+<style>
+    body {
+        width: 80%;
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+
+    .flex-item {
+        width: 100%;
+    }
+
+    @media (min-width: 768px) {
+        .flex-item {
+            width: calc(50% - 20px);
+
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .display-1 {
+            font-size: 4rem;
+        }
+        
+    }
+
+    .flex-container {
+    display: flex; /* Enables flexbox layout */
+    justify-content: space-between; /* Adjusts spacing between items */
+    align-items: flex-start; /* Aligns items at the start */
+}
+
+.flex-item {
+    flex: 1; /* Allows the item to grow and shrink */
+    margin-right: 20px; /* Adds space between items, adjust as needed */
+}
+
+.iframe-container {
+    flex: 1; /* Allows the iframe container to grow and shrink */
+}
+
+/* Optional: Set a specific width for the iframe if needed */
+.iframe-container iframe {
+    width: 100%; /* Makes the iframe responsive */
+    height: 500px; /* Adjust height as necessary */
+    border: none; /* Removes default iframe border */
+}
+
+    /* Media query for mobile devices */
+    @media (max-width: 768px) {
+        .flex-container {
+            flex-direction: column; /* Stack items vertically */
+        }
+
+        .flex-item, .iframe-container {
+            width: 100%; /* Makes the iframe responsive */
+    height: 500px; /* Adjust height as necessary */
+    border: none; /* Removes default iframe border */
+        }
+    }
+
+    
+</style>
+
+<body class="w3-white w3-content" style="max-width:1600px">
+
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Emma Roche</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav mx-auto">
+                <a href="index.html#portfolio" class="nav-item nav-link active">Back to Portfolio Items</a>
+            </div>
+            <a href="assets/Emma Roche CV.pdf" class="btn btn-outline-primary d-none d-lg-block" download>Download
+                CV</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <br><br><br><br><br><br>
+
+    <div class="position-relative d-flex align-items-center justify-content-center">
+        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Portfolio</h1>
+        <h1 class="position-absolute text-uppercase text-primary">UX/UI Design</h1>
+    </div>
+    
+    <br><br><br>
+
+    <div class="flex-container">
+        <div class="flex-item">
+            <!-- <h2>Memory Lane Event Planning Website</h2> -->
+            <h2
+                class="position-relative d-flex align-items-left justify-content-left text-uppercase text-primary mb-4">
+                Memory Lane Event Planning Website</h2>
+            <p>As part of my User Experience Design Module in my Master's coursework, I invented a fictional company
+                called Memory Lane Event Planning, that specialises in upscale
+                event planning. The goal of Memory Lane Event Planning, is to craft unforgettable experiences for
+                various occasions like weddings,
+                milestone birthdays, and anniversaries.</p>
+
+            <p>The purpose of the website design is to create a professional, intuitive and user-friendly platform
+                for people seeking upscale event planning services. The website aims to showcase the
+                company's expertise and portfolio and facilitate communication between clients and the
+                event planning team.</p>
+        </div>
+        <div class="iframe-container">
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/BwPDKV9J49pKkGXkpUPW3w/MLEP-Final-Design?page-id=0%3A1&node-id=120-471&starting-point-node-id=120%3A471&scaling=scale-down&content-scaling=fixed&embed-host=share" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <br><br>
+
+    <div class="flex-container">
+        <div class="flex-item">
+            <h2 class="position-relative d-flex align-items-left justify-content-sm-left justify-content-start text-uppercase text-primary mb-4">
+                Careers Guidance App
+            </h2>
+            <p>The Careers Guidance App is an iOS mobile application I created for my Final Year Project for my
+                undergraduate honours degree.
+                The images showcased on the right portray the prototype design of the app that I created prior to
+                commencing its development in Xcode. </p>
+            <p>
+                The Careers Guidance App is designed to serve as a career guidance assistant for people in search of a
+                third level undergraduate course in the Republic of Ireland. In order to help provide the user with the
+                necessary information and support during their course search, the app includes a course matching
+                questionnaire. Similar to a personality test, this questionnaire asks the user questions related to
+                their interests and skills, both personal and academic. Once the user completes the questionnaire,
+                course suggestions are generated that best match to their personality traits, skills and interests. The
+                suggested courses are analysed based on the responses the user provided throughout the questionnaire.
+            </p>
+
+        </div>
+        <div class="iframe-container">
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/rgEVeHQKiUvBvZRrDRXuD6/FYP-UX-Design?page-id=0%3A1&node-id=8-184&starting-point-node-id=8%3A184&content-scaling=fixed&embed-host=share" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="flex-container">
+        <div class="flex-item">
+
+            <h2 class="position-relative d-flex align-items-left justify-content-sm-left justify-content-start text-uppercase text-primary mb-4">
+                Travel Planner App</h2>
+            <p>The Travel Planner App is a mobile application I initially designed as a personal project.
+                I worked on further it as part of my Software Engineering module in the third year of my undergrad
+                degree.
+                The images showcased on the right portray the prototype design of the app that I created.</p>
+
+            <p>The Travel Planner App is a digital wallet/filing system. You can add the location you are going to
+                for your holidays and how long you plan on
+                going for. Your boarding pass, passport copy, check-in details for accommodation, any transport
+                tickets, and any extra documentation can be uploaded and kept within
+                this app. You can also add all the attractions you plan to see on your holiday, and it will also
+                give you recommendations of more attractions in the area you are going to
+                that you can visit. The app can also provide directions for these attractions and real-time updates
+                (can be notifications based on the itinerary) i.e., Museum is now closed,
+                flight delays, weather warnings, etc.</p>
+        </div>
+
+        <div class="iframe-container">
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/w7IHJhvpnlKf4TotjqRGqJ/Travel-Planner-App?page-id=0%3A1&node-id=22-5358&starting-point-node-id=22%3A5358&scaling=scale-down&content-scaling=fixed&embed-host=share" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/portfolio.js"></script>
+
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#carouselExampleIndicators').carousel({
+                interval: false
+            });
+            $('#carouselExampleIndicators2').carousel({
+                interval: false
+            });
+        });
+    </script>
+</body>
+
+</html>

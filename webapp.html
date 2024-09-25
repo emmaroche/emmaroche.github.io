@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Emma Roche - Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/stylecss.css" rel="stylesheet">
+</head>
+
+<style>
+    @media only screen and (max-width: 600px) {
+        .display-1 {
+            font-size: 4rem;
+        }
+    }
+    
+    body {
+        width: 80%;
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .header {
+        font-weight: bold;
+    }
+
+    .flex-item {
+        width: 100%;
+    }
+
+    @media (min-width: 768px) {
+        .flex-item {
+            width: calc(50% - 20px);
+
+        }
+    }
+
+    .iframe-container {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%;
+    }
+
+    .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+<body class="w3-white w3-content" style="max-width:1600px">
+
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Emma Roche</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav mx-auto">
+                <a href="index.html#portfolio" class="nav-item nav-link active">Back to Portfolio Items</a>
+            </div>
+            <a href="assets/Emma Roche CV.pdf" class="btn btn-outline-primary d-none d-lg-block" download>Download
+                CV</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <br><br><br><br><br><br>
+
+    <div class="position-relative d-flex align-items-center justify-content-center">
+        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Portfolio</h1>
+        <h1 class="position-absolute text-uppercase text-primary">Web Applications</h1>
+    </div>
+
+    <br><br><br>
+
+    <div class="flex-container">
+        <div class="flex-item">
+            <h2 class="position-relative d-flex align-items-center justify-content-sm-center justify-content-start text-uppercase text-primary mb-4">
+                Movies Fan App</h2>
+            <h5 class="header">Overview</h5>
+            <p class="responsive-text">The Movies Fan App is a web application that I developed for my Enterprise Web
+                Development module in my Master’s degree.
+                This app was written in TypeScript and uses the ReactJS library.</p>
+
+            <h5 class="header">Key Features / Functionality</h5>
+            <ul>
+                <li><strong>Home page</strong> - Landing page that displays different movies to look through and
+                    discover.</li>
+                <li><strong>Now Playing movies page</strong> - Displays the movies that are out right now.</li>
+                <li><strong>Upcoming movies page</strong> - Displays the movies that are coming out soon.</li>
+                <li><strong>Popular movies page</strong> - Displays the movies that a lot of people are watching and
+                    liking currently.</li>
+                <li>
+                    <strong>Add to favourite and/or add to must watch page option:</strong>
+                    <ul>
+                        <li><strong>Favourites page</strong> - A page where users can keep track of their favourited
+                            movies.</li>
+                        <li><strong>Must watch page</strong> - A page where users can keep track of the movies they
+                            added to must watch.</li>
+                    </ul>
+                </li>
+                <li><strong>Fantasy movie page</strong> - A page where users can create their own 'Dream Movie' by
+                    inputting details such as title, overview, genres, release date, runtime, production company(s),
+                    ideal cast members, and upload a custom movie poster.</li>
+                <li><strong>Movie details page</strong> - A page where users can explore a movie's details including its
+                    description, genres, runtime, and more. Additionally, users can view the cast members and discover
+                    similar movies to watch.</li>
+                <li><strong>Cast biography page</strong> - A page where users can read the biography of an individual
+                    cast member from a movie.</li>
+                <li><strong>Filter functionality</strong> - Filter movies by title, year, and/or genre.</li>
+                <li><strong>Sort functionality</strong> - Arrange movies by their ratings from highest to lowest or
+                    lowest to highest.</li>
+                <li><strong>Movie reviews</strong> - Users can view movie reviews for a specific movie, write a review,
+                    and view their own reviews.</li>
+            </ul>
+
+            <h5 class="header">Github Repository</h5>
+            <p>Explore further details about the app by visiting the project on <a
+                    href="https://github.com/emmaroche/ewd-assignment2.git" target="_blank">GitHub</a>.</p>
+        </div>
+        <div class="iframe-container">
+            <iframe src="https://www.youtube.com/embed/fpgShUvbHso" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="flex-container">
+        <div class="flex-item">
+            <h2 class="position-relative d-flex align-items-center justify-content-sm-center justify-content-start text-uppercase text-primary mb-4">
+                Health Tracker App</h2>
+            <h5 class="header">Overview</h5>
+            <p class="responsive-text">The Health Tracker App is a web application that I developed for my Agile
+                Software Development module in my Master’s degree.
+                The application is developed using Kotlin, with data storage handled by an ElephantSQL database. Testing
+                was carried out using JUnit 5 and Unirest.</p>
+            <h5 class="header">Key Features / Functionality</h5>
+            <ul>
+                <li><strong>User and Activities:</strong>
+                    <ul>
+                        <li>Designed features for user information and activity tracking.</li>
+                        <li>Created API endpoints for managing user profiles and recording activities.</li>
+                        <li>Ensured the API endpoints support CRUD operations for user data and activities.</li>
+                    </ul>
+                </li>
+                <li><strong>Health Goal Tracking - Fitness, Nutrition, and Weight Goals:</strong>
+                    <ul>
+                        <li>Implemented fitness, nutrition, and weight goals tracker features.</li>
+                        <li>Created API endpoints for tracking fitness goals, nutrition goals, and weight goals.</li>
+                        <li>Implemented the ability to add, update, delete, and retrieve fitness, nutrition, and weight
+                            goals.</li>
+                        <li>Ensured the API endpoints support CRUD operations for these goals.</li>
+                    </ul>
+                </li>
+                <li><strong>Health Records:</strong>
+                    <ul>
+                        <li>Created API endpoints for health records.</li>
+                        <li>Implemented the ability to add, update, delete, and retrieve health records.</li>
+                        <li>Ensured the API endpoints support CRUD operations for health records.</li>
+                    </ul>
+                </li>
+                <li><strong>Sleep Tracking:</strong>
+                    <ul>
+                        <li>Added sleep tracking functionality.</li>
+                        <li>Created API endpoints for tracking sleep data.</li>
+                        <li>Implemented the ability to add, update, delete, and retrieve sleep data.</li>
+                        <li>Ensured the API endpoints support CRUD operations for sleep tracking.</li>
+                    </ul>
+                </li>
+                <li><strong>Mood Tracking:</strong>
+                    <ul>
+                        <li>Incorporated mood tracking features.</li>
+                        <li>Created API endpoints for recording mood data.</li>
+                        <li>Implemented the ability to add, update, delete, and retrieve mood data.</li>
+                        <li>Ensured the API endpoints support CRUD operations for mood tracking.</li>
+                    </ul>
+                </li>
+                <li><strong>User Weight:</strong>
+                    <ul>
+                        <li>Included user weight tracking functionality.</li>
+                        <li>Created API endpoints for tracking user weight.</li>
+                        <li>Implemented the ability to add, update, delete, and retrieve user weight data.</li>
+                        <li>Ensured the API endpoints support CRUD operations for user weight.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h5 class="header">Github Repository</h5>
+            <p>Explore further details about the app by visiting the project on <a
+                    href="https://github.com/emmaroche/health-tracker-app.git" target="_blank">GitHub</a>.</p>
+        </div>
+    </div>
+    <br><br><br>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/portfolio.js"></script>
+
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#carouselExampleIndicators').carousel({
+                interval: false
+            });
+            $('#carouselExampleIndicators2').carousel({
+                interval: false
+            });
+        });
+    </script>
+</body>
+
+</html>

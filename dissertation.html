@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Emma Roche - Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/stylecss.css" rel="stylesheet">
+</head>
+
+<style>
+    body {
+        width: 80%;
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+
+    .flex-item {
+        width: 100%;
+    }
+
+    @media (min-width: 768px) {
+        .flex-item {
+            width: calc(50% - 20px);
+
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .display-1 {
+            font-size: 4rem;
+        }
+        
+    }
+
+    .flex-container {
+    display: flex; /* Enables flexbox layout */
+    justify-content: space-between; /* Adjusts spacing between items */
+    align-items: flex-start; /* Aligns items at the start */
+}
+
+.flex-item {
+    flex: 1; /* Allows the item to grow and shrink */
+    margin-right: 50px; /* Adds space between items, adjust as needed */
+}
+
+.iframe-container {
+    flex: 1; /* Allows the iframe container to grow and shrink */
+}
+
+/* Optional: Set a specific width for the iframe if needed */
+.iframe-container iframe {
+    width: 100%; /* Makes the iframe responsive */
+    height: 500px; /* Adjust height as necessary */
+    border: none; /* Removes default iframe border */
+}
+
+    /* Media query for mobile devices */
+    @media (max-width: 768px) {
+        .flex-container {
+            flex-direction: column; /* Stack items vertically */
+        }
+
+        .flex-item, .iframe-container {
+            width: 100%; /* Makes the iframe responsive */
+    height: 500px; /* Adjust height as necessary */
+    border: none; /* Removes default iframe border */
+        }
+    }
+
+    
+</style>
+
+<body class="w3-white w3-content" style="max-width:1600px">
+
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Emma Roche</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav mx-auto">
+                <a href="index.html#portfolio" class="nav-item nav-link active">Back to Portfolio Items</a>
+            </div>
+            <a href="assets/Emma Roche CV.pdf" class="btn btn-outline-primary d-none d-lg-block" download>Download
+                CV</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <br><br><br><br><br><br>
+
+    <div class="position-relative d-flex align-items-center justify-content-center">
+        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Portfolio</h1>
+        <h1 class="position-absolute text-uppercase text-primary">Dissertation</h1>
+    </div>
+    
+    <br><br><br>
+
+    <div class="flex-container">
+        <div class="flex-item">
+            <!-- <h2>Memory Lane Event Planning Website</h2> -->
+            <h2
+                class="position-relative d-flex align-items-left justify-content-left text-uppercase text-primary mb-4">
+                Building a Generative AI-Powered Code Migration Pipeline for Application Modernisation</h2>
+            <p>For my dissertation, I investigated the use of generative artificial intelligence (AI) for migrating code from one programming language to another, with an emphasis on developing an AI-powered code migration pipeline. The pipeline consisted of three main steps: data collection, code migration, and establishing an experimental testing framework. The goal of this pipeline was to provide an automated migration procedure that streamlines the code migration process and reduces the amount of human involvement traditionally required in code migration. The pipeline supports the migration of Java code to Kotlin and JavaScript code to TypeScript using pre-trained and pre-existing generative AI models from OpenAI, Google, and Meta. Additionally, the study assessed how different prompt styles (zero-shot vs. informative prompts) impacted the migration outcomes. The migration process efficiency, migration success rates, test pass/fail rates, amount of manual involvement needed, and static analysis results were all documented as part of the main findings of this research. These findings helped to provide practical recommendations for using generative AI in the context of code migration.
+            </p>
+            <a href="https://github.com/emmaroche/code-migration-pipeline.git" target="_blank">View the Pipeline on GitHub</a>
+        </div>
+        <div class="iframe-container">
+            <iframe src="assets/DP.pdf" type="application/pdf"></iframe>
+    </div>
+    </div>
+
+    <br><br><br>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/portfolio.js"></script>
+
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#carouselExampleIndicators').carousel({
+                interval: false
+            });
+            $('#carouselExampleIndicators2').carousel({
+                interval: false
+            });
+        });
+    </script>
+</body>
+
+</html>
