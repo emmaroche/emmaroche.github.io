@@ -10090,12 +10090,27 @@ h6,
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
 }
 
+.h4Skills {
+  font-weight: bold; 
+  font-size: 20px;
+  margin: 0;
+  padding-left: 10px;
+}
+
+
 /* Icon Styles */
 .service-icon {
-  font-size: 2rem; /* Adjust icon size */
-  padding: 1rem; /* Add padding for better spacing */
-  border-radius: 50%; /* Circular background */
+    width: 40px;  /* Reduced width */
+    height: 40px;  /* Reduced height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #007bff; /* Primary color */
+    color: white;
+    font-size: 1rem; /* Adjust icon size inside */
 }
+
 
 /* Text Styles */
 .card-text {
