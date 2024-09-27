@@ -89,21 +89,19 @@
     }
 
     /* Media query for mobile devices */
-    /* Media query for mobile devices */
-    @media (max-width: 768px) {
-        .flex-container {
-            flex-direction: column;
-            /* Stack items vertically */
-        }
-
-        .flex-item,
-        .iframe-container {
-            width: 100%;
-            /* Makes the iframe responsive */
-            height: auto;
-            /* Change this to auto for better height adjustment */
-        }
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column; /* Stack items vertically */
     }
+
+    .flex-item,
+    .iframe-container {
+        width: 100%; /* Makes the iframe responsive */
+        height: auto; /* Change this to auto for better height adjustment */
+    }
+}
+
 </style>
 
 <body class="w3-white w3-content" style="max-width:1600px">
@@ -127,59 +125,48 @@
     <!-- Navbar End -->
     <br><br><br><br>
 
-    <div class="position-relative d-flex align-items-center justify-content-center spacer">
+    <div class="position-relative d-flex align-items-center justify-content-center spacer"> 
         <h1 class="display-1 text-uppercase text-white hide-on-mobile" style="-webkit-text-stroke: 1px #dee2e6;">
             Portfolio
         </h1>
         <h1 class="position-absolute text-uppercase text-primary position-absolute-mobile-center">Dissertation</h1>
     </div>
-
+    
     <div class="flex-container">
         <div class="flex-item">
             <!-- <h2>Memory Lane Event Planning Website</h2> -->
             <h2 class="position-relative d-flex align-items-left justify-content-left text-uppercase text-primary mb-4">
                 Building a Generative AI-Powered Code Migration Pipeline for Application Modernisation</h2>
-            <p>
-                For my dissertation, I investigated the use of <strong>generative artificial intelligence (AI)</strong>
-                for migrating code
-                from one programming language to another, with an emphasis on developing an <strong>AI-powered code
-                    migration
-                    pipeline</strong>. The pipeline consisted of <strong>three main steps</strong>: <strong>data
-                    collection</strong>, <strong>code migration</strong>, and <strong>establishing an experimental
-                    testing framework</strong>. The goal of this pipeline was to provide an <strong>automated migration
-                    procedure</strong> that <strong>streamlines</strong> the code migration process and <strong>reduces
-                    the amount of human involvement</strong>
-                traditionally required in code migration.
-            </p>
-            <p>
-                The pipeline supports the migration of <strong>Java code to Kotlin</strong> and
-                <strong>JavaScript code to TypeScript</strong> using <strong>pre-trained and pre-existing generative AI
-                    models</strong> from <strong>OpenAI,
-                    Google, and Meta</strong>. Additionally, the study assessed how different <strong>prompt
-                    styles</strong> (<strong>zero-shot vs.
-                    informative prompts</strong>) impacted the migration outcomes. The <strong>migration process
-                    efficiency</strong>, <strong>migration
-                    success rates</strong>, <strong>test pass/fail rates</strong>, <strong>amount of manual involvement
-                    needed</strong>, and <strong>static analysis results</strong>
-                were all documented as part of the <strong>main findings</strong> of this research. These findings
-                helped to provide
-                <strong>practical recommendations</strong> for using generative AI in the context of code migration.
-            </p>
-
-            <div class="links mb-3">
-                <a href="https://github.com/emmaroche/code-migration-pipeline.git" target="_blank"
-                    class="btn btn-outline-primary mb-2">
+                <p>
+                    For my dissertation, I investigated the use of <strong>generative artificial intelligence (AI)</strong> for migrating code
+                    from one programming language to another, with an emphasis on developing an <strong>AI-powered code migration
+                    pipeline</strong>. The pipeline consisted of <strong>three main steps</strong>: <strong>data collection</strong>, <strong>code migration</strong>, and <strong>establishing an experimental testing framework</strong>. The goal of this pipeline was to provide an <strong>automated migration
+                    procedure</strong> that <strong>streamlines</strong> the code migration process and <strong>reduces the amount of human involvement</strong>
+                    traditionally required in code migration.
+                </p>
+                <p>
+                    The pipeline supports the migration of <strong>Java code to Kotlin</strong> and
+                    <strong>JavaScript code to TypeScript</strong> using <strong>pre-trained and pre-existing generative AI models</strong> from <strong>OpenAI,
+                    Google, and Meta</strong>. Additionally, the study assessed how different <strong>prompt styles</strong> (<strong>zero-shot vs.
+                    informative prompts</strong>) impacted the migration outcomes. The <strong>migration process efficiency</strong>, <strong>migration
+                    success rates</strong>, <strong>test pass/fail rates</strong>, <strong>amount of manual involvement needed</strong>, and <strong>static analysis results</strong>
+                    were all documented as part of the <strong>main findings</strong> of this research. These findings helped to provide
+                    <strong>practical recommendations</strong> for using generative AI in the context of code migration.
+                </p>
+                
+            <div class="links mb-3"> 
+                <a href="https://github.com/emmaroche/code-migration-pipeline.git" target="_blank" class="btn btn-outline-primary mb-2">
                     Explore the Pipeline on GitHub
                 </a>
                 <a href="https://youtu.be/hXLB_iJ4b-Y" target="_blank" class="btn btn-outline-primary">
                     Watch a Demo of the Pipeline in Action
                 </a>
             </div>
-
+            
         </div>
         <div class="iframe-container mb-9">
-            <iframe src="assets/DP.pdf" type="application/pdf"></iframe>
-        </div>
+            <iframe src="assets/DP.pdf" type="application/pdf" scrolling="yes"></iframe>
+        </div>        
     </div>
 
     <!-- Back to Top -->
