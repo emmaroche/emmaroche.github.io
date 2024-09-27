@@ -10161,3 +10161,24 @@ h6,
 .hobbies-list li {
   margin-bottom: 0.25rem; /* Reduces space between list items */
 }
+
+@media (max-width: 576px) {
+  .d-flex-mobile-left {
+      justify-content: start !important;
+  }
+  .text-mobile-left {
+      text-align: left !important;
+  }
+  
+}
+
+@media (max-width: 576px) {
+  .hide-on-mobile {
+      display: none !important;
+  }
+  /* Adjust the position of "Technical Skills" when the large text is hidden */
+  .position-absolute-mobile-center {
+      position: static !important;
+      text-align: center;
+  }
+}
