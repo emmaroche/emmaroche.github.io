@@ -54,45 +54,57 @@
         .display-1 {
             font-size: 4rem;
         }
-        
+
     }
 
     .flex-container {
-    display: flex; /* Enables flexbox layout */
-    justify-content: space-between; /* Adjusts spacing between items */
-    align-items: flex-start; /* Aligns items at the start */
-}
+        display: flex;
+        /* Enables flexbox layout */
+        justify-content: space-between;
+        /* Adjusts spacing between items */
+        align-items: flex-start;
+        /* Aligns items at the start */
+    }
 
-.flex-item {
-    flex: 1; /* Allows the item to grow and shrink */
-    margin-right: 50px; /* Adds space between items, adjust as needed */
-}
+    .flex-item {
+        flex: 1;
+        /* Allows the item to grow and shrink */
+        margin-right: 50px;
+        /* Adds space between items, adjust as needed */
+    }
 
-.iframe-container {
-    flex: 1; /* Allows the iframe container to grow and shrink */
-}
+    .iframe-container {
+        flex: 1;
+        /* Allows the iframe container to grow and shrink */
+    }
 
-/* Optional: Set a specific width for the iframe if needed */
-.iframe-container iframe {
-    width: 100%; /* Makes the iframe responsive */
-    height: 500px; /* Adjust height as necessary */
-    border: none; /* Removes default iframe border */
-}
+    /* Optional: Set a specific width for the iframe if needed */
+    .iframe-container iframe {
+        width: 100%;
+        /* Makes the iframe responsive */
+        height: 500px;
+        /* Adjust height as necessary */
+        border: none;
+        /* Removes default iframe border */
+    }
 
     /* Media query for mobile devices */
     @media (max-width: 768px) {
         .flex-container {
-            flex-direction: column; /* Stack items vertically */
+            flex-direction: column;
+            /* Stack items vertically */
         }
 
-        .flex-item, .iframe-container {
-            width: 100%; /* Makes the iframe responsive */
-    height: 500px; /* Adjust height as necessary */
-    border: none; /* Removes default iframe border */
+        .flex-item,
+        .iframe-container {
+            width: 100%;
+            /* Makes the iframe responsive */
+            height: 500px;
+            /* Adjust height as necessary */
+            border: none;
+            /* Removes default iframe border */
         }
     }
-
-    
 </style>
 
 <body class="w3-white w3-content" style="max-width:1600px">
@@ -117,25 +129,37 @@
     <br><br><br><br><br><br>
 
     <div class="position-relative d-flex align-items-center justify-content-center">
-        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Portfolio</h1>
-        <h1 class="position-absolute text-uppercase text-primary">Dissertation</h1>
+        <h1 class="display-1 text-uppercase text-white hide-on-mobile" style="-webkit-text-stroke: 1px #dee2e6;">
+            Portfolio</h1>
+        <h1 class="position-absolute text-uppercase text-primary position-absolute-mobile-center">Dissertation</h1>
     </div>
-    
+
     <br><br><br>
 
     <div class="flex-container">
         <div class="flex-item">
             <!-- <h2>Memory Lane Event Planning Website</h2> -->
-            <h2
-                class="position-relative d-flex align-items-left justify-content-left text-uppercase text-primary mb-4">
+            <h2 class="position-relative d-flex align-items-left justify-content-left text-uppercase text-primary mb-4">
                 Building a Generative AI-Powered Code Migration Pipeline for Application Modernisation</h2>
-            <p>For my dissertation, I investigated the use of generative artificial intelligence (AI) for migrating code from one programming language to another, with an emphasis on developing an AI-powered code migration pipeline. The pipeline consisted of three main steps: data collection, code migration, and establishing an experimental testing framework. The goal of this pipeline was to provide an automated migration procedure that streamlines the code migration process and reduces the amount of human involvement traditionally required in code migration. The pipeline supports the migration of Java code to Kotlin and JavaScript code to TypeScript using pre-trained and pre-existing generative AI models from OpenAI, Google, and Meta. Additionally, the study assessed how different prompt styles (zero-shot vs. informative prompts) impacted the migration outcomes. The migration process efficiency, migration success rates, test pass/fail rates, amount of manual involvement needed, and static analysis results were all documented as part of the main findings of this research. These findings helped to provide practical recommendations for using generative AI in the context of code migration.
+            <p>For my dissertation, I investigated the use of generative artificial intelligence (AI) for migrating code
+                from one programming language to another, with an emphasis on developing an AI-powered code migration
+                pipeline. The pipeline consisted of three main steps: data collection, code migration, and establishing
+                an experimental testing framework. The goal of this pipeline was to provide an automated migration
+                procedure that streamlines the code migration process and reduces the amount of human involvement
+                traditionally required in code migration. The pipeline supports the migration of Java code to Kotlin and
+                JavaScript code to TypeScript using pre-trained and pre-existing generative AI models from OpenAI,
+                Google, and Meta. Additionally, the study assessed how different prompt styles (zero-shot vs.
+                informative prompts) impacted the migration outcomes. The migration process efficiency, migration
+                success rates, test pass/fail rates, amount of manual involvement needed, and static analysis results
+                were all documented as part of the main findings of this research. These findings helped to provide
+                practical recommendations for using generative AI in the context of code migration.
             </p>
-            <a href="https://github.com/emmaroche/code-migration-pipeline.git" target="_blank">View the Pipeline on GitHub</a>
+            <a href="https://github.com/emmaroche/code-migration-pipeline.git" target="_blank">View the Pipeline on
+                GitHub</a>
         </div>
         <div class="iframe-container">
             <iframe src="assets/DP.pdf" type="application/pdf"></iframe>
-    </div>
+        </div>
     </div>
 
     <br><br><br>
