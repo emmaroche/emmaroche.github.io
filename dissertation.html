@@ -50,6 +50,12 @@
         }
     }
 
+    @media (max-width: 600px) { /* Adjust the breakpoint as needed */
+    .links a {
+        margin-bottom: 10px; /* Add bottom margin to buttons on mobile */
+    }
+}
+
     @media only screen and (max-width: 600px) {
         .display-1 {
             font-size: 4rem;
@@ -178,9 +184,9 @@
                 <strong>practical recommendations</strong> for using generative AI in the context of code migration.
             </p>
 
-            <div class="links mb-3">
+            <div class="links">
                 <a href="https://github.com/emmaroche/code-migration-pipeline.git" target="_blank"
-                    class="btn btn-outline-primary mr-5">
+                    class="btn btn-outline-primary mr-3">
                     Explore the Pipeline on GitHub
                 </a>
                 <a href="https://youtu.be/hXLB_iJ4b-Y" target="_blank" class="btn btn-outline-primary">
