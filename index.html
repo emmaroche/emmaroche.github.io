@@ -29,16 +29,17 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/stylecss.css" rel="stylesheet">
 
-
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
+
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
         <a href="index.html" class="navbar-brand ml-lg-3">
-            <h1 class="m-0 display-5"><span class="text-primary">Emma Roche</h1>
+            <h1 class="m-0 display-5"><span class="text-primary">Emma Roche</span></h1>
         </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
@@ -494,11 +495,28 @@
     <!-- Back to Top -->
     <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
+    <!-- jQuery to handle outside clicks and navbar toggle -->
     <script>
         $(document).ready(function () {
+            // Close the navbar when any nav-link is clicked
             $('.nav-link').on('click', function () {
-                // Collapse the navbar when any nav-link is clicked
                 $('.navbar-collapse').collapse('hide');
+            });
+
+            // Close the navbar when clicking outside of it
+            $(document).on('click', function (event) {
+                var clickover = $(event.target);
+                var _opened = $(".navbar-collapse").hasClass("show");
+                if (_opened === true && !clickover.closest('.navbar').length) {
+                    $(".navbar-collapse").collapse('hide');
+                }
+            });
+
+            // Ensure toggler works to open/close the navbar
+            $('.navbar-toggler').on('click', function (event) {
+                event.stopPropagation(); // Prevent event from bubbling up to the document
+                // Toggle the navbar
+                $(".navbar-collapse").collapse('toggle');
             });
         });
     </script>
