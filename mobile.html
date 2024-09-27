@@ -46,7 +46,6 @@
     @media (min-width: 768px) {
         .flex-item {
             width: calc(50% - 20px);
-
         }
     }
 
@@ -54,78 +53,77 @@
         .display-1 {
             font-size: 4rem;
         }
-
     }
 
     .flex-container {
         display: flex;
-        /* Enables flexbox layout */
         justify-content: space-between;
-        /* Adjusts spacing between items */
         align-items: flex-start;
-        /* Aligns items at the start */
     }
 
     .flex-item {
         flex: 1;
-        /* Allows the item to grow and shrink */
         margin-right: 50px;
-        /* Adds space between items, adjust as needed */
     }
 
     .iframe-container {
         flex: 1;
-        /* Allows the iframe container to grow and shrink */
     }
 
-    /* Optional: Set a specific width for the iframe if needed */
     .iframe-container iframe {
         width: 100%;
-        /* Makes the iframe responsive */
         height: 500px;
-        /* Adjust height as necessary */
         border: none;
-        /* Removes default iframe border */
     }
 
-    /* Media query for mobile devices */
     @media (max-width: 768px) {
         .flex-container {
             flex-direction: column;
-            /* Stack items vertically */
         }
 
         .flex-item,
         .iframe-container {
             width: 100%;
-            /* Makes the iframe responsive */
             height: 500px;
-            /* Adjust height as necessary */
             border: none;
-            /* Removes default iframe border */
         }
     }
 
-     .background-div {
-            width: 100%; /* Change from 30% to 100% for mobile */
-            padding: 20px;
-            border-radius: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 50%;
+    }
+
+    .background-div {
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Media query for smaller screens */
+    @media (max-width: 768px) {
+        .carousel-inner img {
+            width: 100%;
+            height: auto;
+            max-height: 80vh; 
         }
-        
-        /* Media query for smaller screens */
-        @media (max-width: 768px) {
-            .carousel-inner img {
-                width: 100%; /* Ensure images take full width */
-                height: auto; /* Maintain aspect ratio */
-            }
-            .carousel-control-prev,
-            .carousel-control-next {
-                width: 10%; /* Adjust as necessary */
-            }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: 10%; 
         }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            height: 30px; 
+            width: 30px; 
+        }
+    
+    }
 </style>
 
 <body class="w3-white w3-content" style="max-width:1600px">
@@ -186,7 +184,7 @@
                     href="https://github.com/emmaroche/Careers-Guidance-App-FYP.git" target="_blank">GitHub</a>.</p>
         </div>
         <div class="background-div"
-            style="width: 30%; padding: 20px; border-radius: 10px; display: flex; justify-content: center; align-items: center;">
+            style="width: 50%; padding: 20px; border-radius: 10px; display: flex; justify-content: center; align-items: center;">
             <div id="carouselExampleIndicators" class="carousel slide" style="width: 100%;">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -258,13 +256,11 @@
                         <div class="carousel-caption d-none d-md-block"></div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"
-                    style="width: 10%;">
+                <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"
-                    style="width: 10%;">
+                <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
@@ -307,7 +303,7 @@
 
         </div>
         <div class="background-div"
-            style="width: 30%; padding: 20px; border-radius: 10px; display: flex; justify-content: center; align-items: center;">
+            style="width: 50%; padding: 20px; border-radius: 10px; display: flex; justify-content: center; align-items: center;">
             <div id="carouselExampleIndicators2" class="carousel slide" style="width: 100%;">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -366,19 +362,15 @@
                         <div class="carousel-caption d-none d-md-block"></div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev"
-                    style="width: 10%;">
+                <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next"
-                    style="width: 10%;">
+                <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-
             </div>
-
         </div>
     </div>
 
@@ -418,7 +410,7 @@
         </div>
 
         <div class="background-div"
-            style="width: 30%; padding: 20px; border-radius: 10px; display: flex; justify-content: center; align-items: center;">
+            style="width: 50%; padding: 20px; border-radius: 10px; display: flex; justify-content: center; align-items: center;">
             <div id="carouselExampleIndicators3" class="carousel slide" style="width: 100%;">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -452,18 +444,14 @@
                         <div class="carousel-caption d-none d-md-block"></div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev"
-                    style="width: 10%;">
+                <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next"
-                    style="width: 10%;">
+                <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-
-
             </div>
         </div>
 
