@@ -96,6 +96,26 @@
         }
     }
 
+    @media (max-width: 768px) {
+        .flex-container {
+            flex-direction: column;
+            /* Stack items vertically */
+            align-items: center;
+            /* Center items horizontally */
+            text-align: left;
+            /* Center text within flex items */
+        }
+
+        .flex-item,
+        .iframe-container {
+            width: 100%;
+            /* Full width on mobile */
+            height: auto;
+            /* Change this to auto for better height adjustment */
+            padding: 0 20px;
+            /* Add some padding for better spacing */
+        }
+    }
 
     .carousel-control-prev,
     .carousel-control-next {
