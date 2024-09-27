@@ -31,6 +31,7 @@
         width: 80%;
     }
 
+    
     .flex-container {
         display: flex;
         justify-content: center;
@@ -41,6 +42,7 @@
 
     .flex-item {
         width: 100%;
+        
     }
 
     @media (min-width: 768px) {
@@ -57,13 +59,18 @@
 
     .flex-container {
         display: flex;
+        /* Enables flexbox layout */
         justify-content: space-between;
+        /* Adjusts spacing between items */
         align-items: flex-start;
+        /* Aligns items at the start */
     }
 
     .flex-item {
         flex: 1;
-        margin-right: 50px;
+        /* Allows the item to grow and shrink */
+        margin-right: 20px;
+        /* Adds space between items, adjust as needed */
     }
 
     .iframe-container {
@@ -95,34 +102,25 @@
         width: 50%;
     }
 
-    .background-div {
-        width: 100%;
-        padding: 20px;
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     /* Media query for smaller screens */
     @media (max-width: 768px) {
         .carousel-inner img {
             width: 100%;
             height: auto;
-            max-height: 80vh; 
+            max-height: 80vh;
         }
 
         .carousel-control-prev,
         .carousel-control-next {
-            width: 10%; 
+            width: 10%;
         }
 
         .carousel-control-prev-icon,
         .carousel-control-next-icon {
-            height: 30px; 
-            width: 30px; 
+            height: 30px;
+            width: 30px;
         }
-    
+
     }
 </style>
 
@@ -178,10 +176,13 @@
                 <li>In the Results Dashboard, users can view an analysis of their results (This feature is not available
                     to guests)</li>
             </ul>
-            <h5 style="font-weight: bold;">Github Repository
-            </h5>
-            <p>Explore further details about the app by visiting the project on <a
-                    href="https://github.com/emmaroche/Careers-Guidance-App-FYP.git" target="_blank">GitHub</a>.</p>
+
+            <div class="links mb-3">
+                <a href="https://github.com/emmaroche/Careers-Guidance-App-FYP.git" target="_blank"
+                    class="btn btn-outline-primary mb-2">
+                    Explore the App on GitHub
+                </a>
+            </div>
         </div>
         <div class="background-div"
             style="width: 50%; padding: 20px; border-radius: 10px; display: flex; justify-content: center; align-items: center;">
@@ -295,12 +296,12 @@
                 <li>Integrated maps for event locations, filterable by favourited events and/or past event</li>
             </ul>
 
-
-            <h5 style="font-weight: bold;">Github Repository
-            </h5>
-            <p>Explore further details about the app by visiting the project on <a
-                    href="https://github.com/emmaroche/EventJournalApp.git" target="_blank">GitHub</a>.</p>
-
+            <div class="links mb-3">
+                <a href="https://github.com/emmaroche/EventJournalApp.git" target="_blank"
+                    class="btn btn-outline-primary mb-2">
+                    Explore the App on GitHub
+                </a>
+            </div>
         </div>
         <div class="background-div"
             style="width: 50%; padding: 20px; border-radius: 10px; display: flex; justify-content: center; align-items: center;">
@@ -402,11 +403,12 @@
                 <li>Search and filter YouTubers</li>
                 <li>Mark YouTubers as favourite</li>
             </ul>
-
-            <h5 style="font-weight: bold;">Github Repository
-            </h5>
-            <p>Explore further details about the app by visiting the project on <a
-                    href="https://github.com/emmaroche/Youtuber-App-MAD1.git" target="_blank">GitHub</a>.</p>
+            <div class="links mb-3">
+                <a href="https://github.com/emmaroche/Youtuber-App-MAD1.git" target="_blank"
+                    class="btn btn-outline-primary mb-2">
+                    Explore the App on GitHub
+                </a>
+            </div>
         </div>
 
         <div class="background-div"
