@@ -11411,3 +11411,11 @@ h6,
     text-align: center;
   }
 }
+
+.spacer {
+  margin: 40px 0; /* Adjust the value as needed for top and bottom spacing */
+}
+
+.spacer2 {
+  margin: 100px 0; /* Adjust the value as needed for top and bottom spacing */
+}

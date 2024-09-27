@@ -105,6 +105,27 @@
             /* Removes default iframe border */
         }
     }
+
+     .background-div {
+            width: 100%; /* Change from 30% to 100% for mobile */
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        /* Media query for smaller screens */
+        @media (max-width: 768px) {
+            .carousel-inner img {
+                width: 100%; /* Ensure images take full width */
+                height: auto; /* Maintain aspect ratio */
+            }
+            .carousel-control-prev,
+            .carousel-control-next {
+                width: 10%; /* Adjust as necessary */
+            }
+        }
 </style>
 
 <body class="w3-white w3-content" style="max-width:1600px">
@@ -126,19 +147,16 @@
         </div>
     </nav>
     <!-- Navbar End -->
-    <br><br><br><br><br><br>
+    <br><br><br><br>
 
-
-    <div class="position-relative d-flex align-items-center justify-content-center">
+    <div class="position-relative d-flex align-items-center justify-content-center spacer">
         <h1 class="display-1 text-uppercase text-white hide-on-mobile" style="-webkit-text-stroke: 1px #dee2e6;">
             Portfolio</h1>
         <h1 class="position-absolute text-uppercase text-primary position-absolute-mobile-center">Mobile Applications
         </h1>
     </div>
 
-    <br><br><br>
-
-    <div class="flex-container">
+    <div class="flex-container spacer">
         <div class="flex-item">
             <h2
                 class="position-relative d-flex align-items-left justify-content-sm-left justify-content-start text-uppercase text-primary mb-4">
@@ -256,9 +274,7 @@
 
     </div>
 
-    <br><br>
-
-    <div class="flex-container">
+    <div class="flex-container spacer2">
         <div class="flex-item">
             <h2
                 class="position-relative d-flex align-items-left justify-content-sm-left justify-content-start text-uppercase text-primary mb-4">
@@ -366,9 +382,7 @@
         </div>
     </div>
 
-    <br><br>
-
-    <div class="flex-container">
+    <div class="flex-container spacer2">
         <div class="flex-item">
             <h2
                 class="position-relative d-flex align-items-left justify-content-sm-left justify-content-start text-uppercase text-primary mb-4">
@@ -453,7 +467,6 @@
             </div>
         </div>
 
-        <br><br><br>
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>

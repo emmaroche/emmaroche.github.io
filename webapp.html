@@ -27,12 +27,6 @@
 </head>
 
 <style>
-    @media only screen and (max-width: 600px) {
-        .display-1 {
-            font-size: 4rem;
-        }
-    }
-
     body {
         width: 80%;
     }
@@ -42,10 +36,7 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-    }
-
-    .header {
-        font-weight: bold;
+        margin-bottom: 40px;
     }
 
     .flex-item {
@@ -59,20 +50,60 @@
         }
     }
 
-    .iframe-container {
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-        padding-top: 56.25%;
+    @media only screen and (max-width: 600px) {
+        .display-1 {
+            font-size: 4rem;
+        }
+
     }
 
+    .flex-container {
+        display: flex;
+        /* Enables flexbox layout */
+        justify-content: space-between;
+        /* Adjusts spacing between items */
+        align-items: flex-start;
+        /* Aligns items at the start */
+    }
+
+    .flex-item {
+        flex: 1;
+        /* Allows the item to grow and shrink */
+        margin-right: 50px;
+        /* Adds space between items, adjust as needed */
+    }
+
+    .iframe-container {
+        flex: 1;
+        /* Allows the iframe container to grow and shrink */
+    }
+
+    /* Optional: Set a specific width for the iframe if needed */
     .iframe-container iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
         width: 100%;
-        height: 100%;
-        border: 1px solid rgba(0, 0, 0, 0.1);
+        /* Makes the iframe responsive */
+        height: 500px;
+        /* Adjust height as necessary */
+        border: none;
+        /* Removes default iframe border */
+    }
+
+    /* Media query for mobile devices */
+    @media (max-width: 768px) {
+        .flex-container {
+            flex-direction: column;
+            /* Stack items vertically */
+        }
+
+        .flex-item,
+        .iframe-container {
+            width: 100%;
+            /* Makes the iframe responsive */
+            height: 500px;
+            /* Adjust height as necessary */
+            border: none;
+            /* Removes default iframe border */
+        }
     }
 </style>
 
@@ -95,20 +126,18 @@
         </div>
     </nav>
     <!-- Navbar End -->
-    <br><br><br><br><br><br>
+    <br><br><br><br>
 
-    <div class="position-relative d-flex align-items-center justify-content-center">
+    <div class="position-relative d-flex align-items-center justify-content-center spacer">
         <h1 class="display-1 text-uppercase text-white hide-on-mobile" style="-webkit-text-stroke: 1px #dee2e6;">
             Portfolio</h1>
-        <h1 class="position-absolute text-uppercase text-primary position-absolute-mobile-center">Web Applications</h1>
+        <h1 class="position-absolute text-uppercase text-primary position-absolute-mobile-center">Web Applications
     </div>
 
-    <br><br><br>
-
-    <div class="flex-container">
+    <div class="flex-container spacer">
         <div class="flex-item">
             <h2
-                class="position-relative d-flex align-items-center justify-content-sm-center justify-content-start text-uppercase text-primary mb-4">
+                class="position-relative d-flex align-items-left justify-content-sm-left justify-content-start text-uppercase text-primary mb-4">
                 Movies Fan App</h2>
             <h5 class="header">Overview</h5>
             <p class="responsive-text">The Movies Fan App is a web application that I developed for my Enterprise Web
@@ -147,21 +176,22 @@
                     and view their own reviews.</li>
             </ul>
 
-            <h5 class="header">Github Repository</h5>
-            <p>Explore further details about the app by visiting the project on <a
-                    href="https://github.com/emmaroche/ewd-assignment2.git" target="_blank">GitHub</a>.</p>
+            <div class="links mb-3">
+                <a href="https://github.com/emmaroche/ewd-assignment2.git" target="_blank"
+                    class="btn btn-outline-primary mb-2">
+                    Explore the App on GitHub
+                </a>
+            </div>
         </div>
         <div class="iframe-container">
             <iframe src="https://www.youtube.com/embed/fpgShUvbHso" allowfullscreen></iframe>
         </div>
     </div>
 
-    <br><br>
-
-    <div class="flex-container">
+    <div class="flex-container spacer2">
         <div class="flex-item">
             <h2
-                class="position-relative d-flex align-items-center justify-content-sm-center justify-content-start text-uppercase text-primary mb-4">
+                class="position-relative d-flex align-items-left justify-content-sm-left justify-content-start text-uppercase text-primary mb-4">
                 Health Tracker App</h2>
             <h5 class="header">Overview</h5>
             <p class="responsive-text">The Health Tracker App is a web application that I developed for my Agile
@@ -219,12 +249,15 @@
                 </li>
             </ul>
 
-            <h5 class="header">Github Repository</h5>
-            <p>Explore further details about the app by visiting the project on <a
-                    href="https://github.com/emmaroche/health-tracker-app.git" target="_blank">GitHub</a>.</p>
+            <div class="links mb-3">
+                <a href="https://github.com/emmaroche/health-tracker-app.git" target="_blank"
+                    class="btn btn-outline-primary mb-2">
+                    Explore the App on GitHub
+                </a>
+            </div>
         </div>
     </div>
-    <br><br><br>
+
     <!-- Back to Top -->
     <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
