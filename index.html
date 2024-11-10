@@ -65,7 +65,6 @@
                     <img class="img-fluid  rounded-circle shadow-sm" src="img/profile1.jpg" alt="">
                 </div>
                 <div class="col-lg-7 text-center text-lg-left">
-                    <!-- <h3 class="text-white font-weight-normal mb-3">I'm</h3> -->
                     <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">
                         Emma Roche</h1>
                     <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
@@ -136,9 +135,9 @@
 
                     <!-- Contact Details Section -->
                     <div class="row mb-1">
-                        <div class="col-sm-12 py-2 d-flex">
-                            <h6 class="h6-colour mr-4"><b>Mobile:</b> <span class="text-secondary">+353 86 338
-                                    9479</span></h6>
+                        <div class="col-sm-12 py-2 d-flex flex-column flex-sm-row">
+                            <h6 class="h6-colour mr-4 mb-2 mb-sm-0"><b>Mobile:</b> <span class="text-secondary">+353 86
+                                    338 9479</span></h6>
                             <h6 class="h6-colour"><b>Email:</b> <span
                                     class="text-secondary">emma.rochie@gmail.com</span></h6>
                         </div>
@@ -425,11 +424,10 @@
                                 <h4 class="h4Skills text-mobile-left">Frameworks/Libraries</h4>
                             </div>
                             <p class="card-text text-mobile-left">React, Vue.js, Node.js, Bootstrap, Svelte, Tailwind
-                                CSS, Flask, JUnit</p>
+                                CSS, Flask, JUnit, LangChain</p>
                         </div>
                     </div>
                 </div>
-
 
                 <!-- RESTful APIs -->
                 <div class="col-lg-4 col-md-6 mb-4">
@@ -437,7 +435,7 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center justify-content-center d-flex-mobile-left mb-3">
                                 <i
-                                    class="fa fa-2x fa-network-wired service-icon bg-primary text-white mr-3 p-3 rounded-circle"></i>
+                                    class="fa fa-2x fa-server service-icon bg-primary text-white mr-3 p-3 rounded-circle"></i>
                                 <h4 class="h4Skills text-mobile-left">RESTful APIs</h4>
                             </div>
                             <p class="card-text text-mobile-left">Experience in developing and consuming RESTful APIs
@@ -445,7 +443,6 @@
                         </div>
                     </div>
                 </div>
-
 
                 <!-- Design Tools -->
                 <div class="col-lg-4 col-md-6 mb-4">
@@ -469,11 +466,10 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center justify-content-center d-flex-mobile-left mb-3">
                                 <i
-                                    class="fa fa-2x fa-desktop service-icon bg-primary text-white mr-3 p-3 rounded-circle"></i>
+                                    class="fa fa-2x fa-robot service-icon bg-primary text-white mr-3 p-3 rounded-circle"></i>
                                 <h4 class="h4Skills text-mobile-left">LLMs & AI</h4>
                             </div>
-                            <p class="card-text text-mobile-left">OpenAI, LLaMA, Hugging Face, LangChain, Vertex AI,
-                                Ollama</p>
+                            <p class="card-text text-mobile-left">OpenAI, LLaMA, Hugging Face, Vertex AI, Ollama</p>
                         </div>
                     </div>
                 </div>
@@ -484,7 +480,7 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center justify-content-center d-flex-mobile-left mb-3">
                                 <i
-                                    class="fa fa-2x fa-desktop service-icon bg-primary text-white mr-3 p-3 rounded-circle"></i>
+                                    class="fa fa-2x fa-cloud service-icon bg-primary text-white mr-3 p-3 rounded-circle"></i>
                                 <h4 class="h4Skills text-mobile-left">Cloud Platforms</h4>
                             </div>
                             <p class="card-text text-mobile-left">Amazon Web Services, Kubernetes, Firebase</p>
@@ -498,7 +494,8 @@
                         <div class="card-body">
                             <div class="d-flex align-items-center justify-content-center d-flex-mobile-left mb-3">
                                 <i
-                                    class="fa fa-2x fa-desktop service-icon bg-primary text-white mr-3 p-3 rounded-circle"></i>
+                                    class="fa fa-2x fa-database service-icon bg-primary text-white mr-3 p-3 rounded-circle"></i>
+
                                 <h4 class="h4Skills text-mobile-left">Databases</h4>
                             </div>
                             <p class="card-text text-mobile-left">PostgreSQL, DynamoDB, MongoDB, MySQL</p>
@@ -506,14 +503,13 @@
                     </div>
                 </div>
 
-
                 <!-- MS Office Suite -->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card text-center shadow-sm">
                         <div class="card-body">
                             <div class="d-flex align-items-center justify-content-center d-flex-mobile-left mb-3">
                                 <i
-                                    class="fa fa-2x fa-desktop service-icon bg-primary text-white mr-3 p-3 rounded-circle"></i>
+                                    class="fa fa-2x fa-file-alt service-icon bg-primary text-white mr-3 p-3 rounded-circle"></i>
                                 <h4 class="h4Skills text-mobile-left">MS Office Suite</h4>
                             </div>
                             <p class="card-text text-mobile-left">Word, Excel, PowerPoint</p>
@@ -534,7 +530,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -543,7 +538,7 @@
     <!-- Contact Start -->
     <div class="container-fluid py-5" id="contact">
         <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
+            <div class="position-relative d-flex align-items-center justify-content-center mb-4">
                 <h1 class="display-1 text-uppercase text-white hide-on-mobile"
                     style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
                 <h1 class="position-absolute text-uppercase text-primary position-absolute-mobile-center">Contact Me
@@ -554,7 +549,7 @@
                     <div class="contact-form text-center">
                         <div id="success"></div>
                         <!-- Contact Form -->
-                        <p>Reach out via email or connect on LinkedIn to get in touch!</p>
+                        <p class="hide-on-mobile">Reach out via email or connect on LinkedIn to get in touch!</p>
                         <a href="mailto:emma.rochie@gmail.com" class="btn btn-outline-primary btn-social mr-2"><i
                                 class="fas fa-envelope"></i></a>
                         <a class="btn btn-outline-primary btn-social mr-2"
@@ -583,9 +578,7 @@
             <p class="m-0">
                 &copy; <a class="text-white" href="#" aria-label="Website Developed by Emma Roche">Emma Roche -
                     Portfolio 2024</a>
-
             </p>
-
         </div>
     </div>
     <!-- Footer End -->
@@ -613,7 +606,6 @@
                 }
             });
 
-            // Ensure toggler works to open/close the navbar
             $('.navbar-toggler').on('click', function (event) {
                 event.stopPropagation(); // Prevent event from bubbling up to the document
                 // Toggle the navbar

@@ -46,16 +46,12 @@
     @media (min-width: 768px) {
         .flex-item {
             width: calc(50% - 20px);
-
         }
     }
 
     @media (max-width: 600px) {
-
-        /* Adjust the breakpoint as needed */
         .links a {
             margin-bottom: 10px;
-            /* Add bottom margin to buttons on mobile */
         }
     }
 
@@ -63,66 +59,46 @@
         .display-1 {
             font-size: 4rem;
         }
-
     }
 
     .flex-container {
         display: flex;
-        /* Enables flexbox layout */
         justify-content: space-between;
-        /* Adjusts spacing between items */
         align-items: flex-start;
-        /* Aligns items at the start */
     }
 
     .flex-item {
         flex: 1;
-        /* Allows the item to grow and shrink */
         margin-right: 50px;
-        /* Adds space between items, adjust as needed */
     }
 
     .iframe-container {
         flex: 1;
-        /* Allows the iframe container to grow and shrink */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
-    /* Optional: Set a specific width for the iframe if needed */
     .iframe-container iframe {
         width: 100%;
-        /* Makes the iframe responsive */
+        max-width: 100%;
         height: 500px;
-        /* Adjust height as necessary */
         border: none;
-        /* Removes default iframe border */
-    }
-
-    /* Media query for mobile devices */
-    @media (max-width: 768px) {
-        .iframe-container {
-            display: none;
-            /* Hides the iframe container on mobile */
-        }
     }
 
     @media (max-width: 768px) {
         .flex-container {
             flex-direction: column;
-            /* Stack items vertically */
-            align-items: center;
-            /* Center items horizontally */
+            align-items: left;
             text-align: left;
-            /* Center text within flex items */
         }
 
         .flex-item,
         .iframe-container {
             width: 100%;
-            /* Full width on mobile */
             height: auto;
-            /* Change this to auto for better height adjustment */
             padding: 0 20px;
-            /* Add some padding for better spacing */
         }
     }
 </style>
@@ -160,19 +136,23 @@
             <h2 class="position-relative d-flex align-items-left justify-content-left text-uppercase text-primary mb-4">
                 Tutors Card Layout Enhancement</h2>
             <p>
-                As part of my <b>volunteer work</b> on Tutors, an <b>open-source learning platform</b>, I
+                As part of my volunteer work on Tutors, an open-source learning platform, I
                 <b>redesigned</b> the <b>course card layout</b> to enhance <b>user engagement</b> and
                 <b>accessibility</b>. I focused on making the <b>course cards easier to navigate</b>, ensuring a more
-                <b>intuitive experience</b> for users. The embedded presentation outlines these changes and rationale behind them, which I created to propose
+                <b>intuitive experience</b> for users.
+            </p>
+            <p>
+
+                The embedded presentation outlines these changes and rationale
+                behind them, which I created to propose
                 the changes to the founder of Tutors. I used <b>Svelte</b> and <b>Tailwind CSS</b> to implement these
                 changes.
             </p>
 
-
             <div class="links">
                 <a href="https://github.com/tutors-sdk/tutors/pull/827" target="_blank"
                     class="btn btn-outline-primary mr-3">
-                    Explore the Updates on Tutors GitHub Repository
+                    Explore the Updates on Tutors GitHub
                 </a>
             </div>
 
@@ -187,12 +167,14 @@
             <h2 class="position-relative d-flex align-items-left justify-content-left text-uppercase text-primary mb-4">
                 Tutors Card Layout Enhancement</h2>
             <p>
-                As part of my work on <b>Tutors</b>, I enhanced the <b>search button</b> and <b>filtering
+                As part of my work on Tutors, I enhanced the <b>search button</b> and <b>filtering
                     functionality</b> to improve accessibility. I focused on providing easier exit options for users to
                 close the search and filter menus without losing their progress. Additionally, I ensured the
-                <b>filtering options</b> were visible and accessible on<b>smaller screens</b>, providing a more
-                intuitive experience for users working with <b>smaller windows</b> or <b>split-screen views</b>. The
-                embedded presentation outlines these changes and rationale behind them. I used <b>Svelte</b> and
+                <b>filtering options</b> were visible and accessible on <b>smaller screens</b>, providing a more
+                intuitive experience for users working with <b>smaller windows</b> or <b>split-screen views</b>.
+            </p>
+
+            <p>The embedded presentation outlines these changes and rationale behind them. I used <b>Svelte</b> and
                 <b>Tailwind CSS</b> to implement these changes. These changes will be merged in the upcoming rebuild of
                 Tutors in December 2024.
             </p>
@@ -216,7 +198,7 @@
             <h2 class="position-relative d-flex align-items-left justify-content-left text-uppercase text-primary mb-4">
                 Memory Lane Event Planning Design</h2>
             <p>
-                As part of my <b>User Experience Design Module</b> in my Master's coursework, I invented a fictional
+                As part of my User Experience Design Module in my Master's coursework, I invented a fictional
                 company
                 called <b>Memory Lane Event Planning</b>, that specialises in upscale event planning. The goal of Memory
                 Lane
@@ -229,12 +211,12 @@
                 <b>scenarios</b>, a
                 <b>sitemap</b>, <b>content strategy</b>, <b>competitor analysis</b>, <b>sketches</b>, <b>wireframes</b>,
                 and <b>prototypes</b>.
-                It also provides detailed rationale behind each <b>design decision</b> to ensure an intuitive and
+                It also provides detailed <b>rationale behind each design decision</b> to ensure an intuitive and
                 effective user experience.
             </p>
 
             <p>There is also the <a href="assets/Assignment 3 Usability Testing.pdf" target="_blank"><b>usability
-                        testing document</b></a> for this project. This <b>hypothetical usability testing document</b>
+                        testing document</b></a> for this project. This hypothetical usability testing document
                 outlines the
                 setup for <b> evaluating the home page </b> of Memory Lane Event Planning's website. The goal is to
                 assess the
