@@ -43,19 +43,31 @@
         width: 100%;
     }
 
+    @media (max-width: 768px) {
+        .flex-container {
+            flex-direction: column;
+            /* Stack items vertically */
+            align-items: center;
+            /* Center items horizontally */
+            text-align: left;
+            /* Center text within flex items */
+        }
+
+        .flex-item,
+        .iframe-container {
+            width: 100%;
+            /* Full width on mobile */
+            height: auto;
+            /* Change this to auto for better height adjustment */
+            padding: 0 20px;
+            /* Add some padding for better spacing */
+        }
+    }
+
     @media (min-width: 768px) {
         .flex-item {
             width: calc(50% - 20px);
 
-        }
-    }
-
-    @media (max-width: 600px) {
-
-        /* Adjust the breakpoint as needed */
-        .links a {
-            margin-bottom: 10px;
-            /* Add bottom margin to buttons on mobile */
         }
     }
 
@@ -78,7 +90,7 @@
     .flex-item {
         flex: 1;
         /* Allows the item to grow and shrink */
-        margin-right: 50px;
+        margin-right: 20px;
         /* Adds space between items, adjust as needed */
     }
 
@@ -99,30 +111,19 @@
 
     /* Media query for mobile devices */
     @media (max-width: 768px) {
-        .iframe-container {
-            display: none;
-            /* Hides the iframe container on mobile */
-        }
-    }
-
-    @media (max-width: 768px) {
         .flex-container {
             flex-direction: column;
             /* Stack items vertically */
-            align-items: center;
-            /* Center items horizontally */
-            text-align: left;
-            /* Center text within flex items */
         }
 
         .flex-item,
         .iframe-container {
             width: 100%;
-            /* Full width on mobile */
-            height: auto;
-            /* Change this to auto for better height adjustment */
-            padding: 0 20px;
-            /* Add some padding for better spacing */
+            /* Makes the iframe responsive */
+            height: 500px;
+            /* Adjust height as necessary */
+            border: none;
+            /* Removes default iframe border */
         }
     }
 </style>
@@ -150,106 +151,89 @@
 
     <div class="position-relative d-flex align-items-center justify-content-center spacer">
         <h1 class="display-1 text-uppercase text-white hide-on-mobile" style="-webkit-text-stroke: 1px #dee2e6;">
-            Portfolio
-        </h1>
-        <h1 class="position-absolute text-uppercase text-primary position-absolute-mobile-center">UX/UI Design Work</h1>
+            Portfolio</h1>
+        <h1 class="position-absolute text-uppercase text-primary position-absolute-mobile-center">Figma Prototypes</h1>
     </div>
 
     <div class="flex-container spacer">
         <div class="flex-item">
+            <!-- <h2>Memory Lane Event Planning Website</h2> -->
             <h2 class="position-relative d-flex align-items-left justify-content-left text-uppercase text-primary mb-4">
-                Tutors Card Layout Enhancement</h2>
-            <p>
-                As part of my <b>volunteer work</b> on Tutors, an <b>open-source learning platform</b>, I
-                <b>redesigned</b> the <b>course card layout</b> to enhance <b>user engagement</b> and
-                <b>accessibility</b>. I focused on making the <b>course cards easier to navigate</b>, ensuring a more
-                <b>intuitive experience</b> for users. The embedded presentation outlines these changes and rationale behind them, which I created to propose
-                the changes to the founder of Tutors. I used <b>Svelte</b> and <b>Tailwind CSS</b> to implement these
-                changes.
-            </p>
+                Memory Lane Event Planning Website</h2>
+            <p>As part of my User Experience Design Module in my Master's coursework, I invented a fictional company
+                called Memory Lane Event Planning, that specialises in upscale
+                event planning. The goal of Memory Lane Event Planning, is to craft unforgettable experiences for
+                various occasions like weddings,
+                milestone birthdays, and anniversaries.</p>
 
-
-            <div class="links">
-                <a href="https://github.com/tutors-sdk/tutors/pull/827" target="_blank"
-                    class="btn btn-outline-primary mr-3">
-                    Explore the Updates on Tutors GitHub Repository
-                </a>
-            </div>
-
+            <p>The purpose of the website design is to create a professional, intuitive and user-friendly platform
+                for people seeking upscale event planning services. The website aims to showcase the
+                company's expertise and portfolio and facilitate communication between clients and the
+                event planning team.</p>
         </div>
-        <div class="iframe-container mb-9">
-            <iframe src="assets/Course Cards Layout Updates.pdf" type="application/pdf" scrolling="yes"></iframe>
+        <div class="iframe-container">
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+                src="https://embed.figma.com/proto/BwPDKV9J49pKkGXkpUPW3w/MLEP-Final-Design?page-id=0%3A1&node-id=120-471&starting-point-node-id=120%3A471&scaling=scale-down&content-scaling=fixed&embed-host=share"
+                allowfullscreen></iframe>
         </div>
     </div>
 
     <div class="flex-container spacer2">
         <div class="flex-item">
-            <h2 class="position-relative d-flex align-items-left justify-content-left text-uppercase text-primary mb-4">
-                Tutors Card Layout Enhancement</h2>
+            <h2
+                class="position-relative d-flex align-items-left justify-content-sm-left justify-content-start text-uppercase text-primary mb-4">
+                Careers Guidance App
+            </h2>
+            <p>The Careers Guidance App is an iOS mobile application I created for my Final Year Project for my
+                undergraduate honours degree.
+                The images showcased on the right portray the prototype design of the app that I created prior to
+                commencing its development in Xcode. </p>
             <p>
-                As part of my work on <b>Tutors</b>, I enhanced the <b>search button</b> and <b>filtering
-                    functionality</b> to improve accessibility. I focused on providing easier exit options for users to
-                close the search and filter menus without losing their progress. Additionally, I ensured the
-                <b>filtering options</b> were visible and accessible on<b>smaller screens</b>, providing a more
-                intuitive experience for users working with <b>smaller windows</b> or <b>split-screen views</b>. The
-                embedded presentation outlines these changes and rationale behind them. I used <b>Svelte</b> and
-                <b>Tailwind CSS</b> to implement these changes. These changes will be merged in the upcoming rebuild of
-                Tutors in December 2024.
+                The Careers Guidance App is designed to serve as a career guidance assistant for people in search of a
+                third level undergraduate course in the Republic of Ireland. In order to help provide the user with the
+                necessary information and support during their course search, the app includes a course matching
+                questionnaire. Similar to a personality test, this questionnaire asks the user questions related to
+                their interests and skills, both personal and academic. Once the user completes the questionnaire,
+                course suggestions are generated that best match to their personality traits, skills and interests. The
+                suggested courses are analysed based on the responses the user provided throughout the questionnaire.
             </p>
 
-            <div class="links">
-                <a href="assets/Navigation Enhancements Video Demos.mp4" target="_blank"
-                    class="btn btn-outline-primary mr-3">
-                    Watch the Video Demo of Recent Updates
-                </a>
-            </div>
-
         </div>
-        <div class="iframe-container mb-9">
-            <iframe src="assets/Navigation Enhancements.pdf" frameborder="0" width="1920" height="1109"
-                allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        <div class="iframe-container">
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+                src="https://embed.figma.com/proto/rgEVeHQKiUvBvZRrDRXuD6/FYP-UX-Design?page-id=0%3A1&node-id=8-184&starting-point-node-id=8%3A184&content-scaling=fixed&embed-host=share"
+                allowfullscreen></iframe>
         </div>
     </div>
 
     <div class="flex-container spacer2">
         <div class="flex-item">
-            <h2 class="position-relative d-flex align-items-left justify-content-left text-uppercase text-primary mb-4">
-                Memory Lane Event Planning Design</h2>
-            <p>
-                As part of my <b>User Experience Design Module</b> in my Master's coursework, I invented a fictional
-                company
-                called <b>Memory Lane Event Planning</b>, that specialises in upscale event planning. The goal of Memory
-                Lane
-                Event Planning, is to craft unforgettable experiences for various occasions like <b>weddings</b>,
-                <b>milestone
-                    birthdays</b>, and <b>anniversaries</b>.
-            </p>
-            <p>
-                The embedded document outlines the complete <b>design process</b>, including <b>personas</b>,
-                <b>scenarios</b>, a
-                <b>sitemap</b>, <b>content strategy</b>, <b>competitor analysis</b>, <b>sketches</b>, <b>wireframes</b>,
-                and <b>prototypes</b>.
-                It also provides detailed rationale behind each <b>design decision</b> to ensure an intuitive and
-                effective user experience.
-            </p>
 
-            <p>There is also the <a href="assets/Assignment 3 Usability Testing.pdf" target="_blank"><b>usability
-                        testing document</b></a> for this project. This <b>hypothetical usability testing document</b>
-                outlines the
-                setup for <b> evaluating the home page </b> of Memory Lane Event Planning's website. The goal is to
-                assess the
-                usability and functionality by observing user interactions and identifying potential strengths and
-                weaknesses in the design, features, and navigation. It covers aspects such as <b>participant
-                    recruitment</b>,
-                <b>test context</b>, and the <b>evaluation methods</b> used to refine the overall user experience.
-            </p>
+            <h2
+                class="position-relative d-flex align-items-left justify-content-sm-left justify-content-start text-uppercase text-primary mb-4">
+                Travel Planner App</h2>
+            <p>The Travel Planner App is a mobile application I initially designed as a personal project.
+                I worked on further it as part of my Software Engineering module in the third year of my undergrad
+                degree.
+                The images showcased on the right portray the prototype design of the app that I created.</p>
+
+            <p>The Travel Planner App is a digital wallet/filing system. You can add the location you are going to
+                for your holidays and how long you plan on
+                going for. Your boarding pass, passport copy, check-in details for accommodation, any transport
+                tickets, and any extra documentation can be uploaded and kept within
+                this app. You can also add all the attractions you plan to see on your holiday, and it will also
+                give you recommendations of more attractions in the area you are going to
+                that you can visit. The app can also provide directions for these attractions and real-time updates
+                (can be notifications based on the itinerary) i.e., Museum is now closed,
+                flight delays, weather warnings, etc.</p>
         </div>
-        <div class="iframe-container mb-9">
-            <iframe src="assets/Assignment 2 Design Specification.pdf" frameborder="0" width="1920" height="1109"
-                allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+        <div class="iframe-container">
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+                src="https://embed.figma.com/proto/w7IHJhvpnlKf4TotjqRGqJ/Travel-Planner-App?page-id=0%3A1&node-id=22-5358&starting-point-node-id=22%3A5358&scaling=scale-down&content-scaling=fixed&embed-host=share"
+                allowfullscreen></iframe>
         </div>
     </div>
-
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
