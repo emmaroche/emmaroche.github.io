@@ -29,6 +29,57 @@
             font-size: 4rem;
         }
     }
+
+    .logo-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .logo-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 30%;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        background: white;
+        /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+        border-radius: 10px;
+        text-align: left;
+    }
+
+    .logo-img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+    }
+
+    .logo-text {
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-top: 1rem;
+    }
+
+    .logo-text p {
+        margin: 0.5rem 0;
+    }
+
+    @media (max-width: 768px) {
+        .logo-item {
+            width: 100%;
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .display-1 {
+            font-size: 4rem;
+        }
+    }
 </style>
 
 <body class="w3-white w3-content" style="max-width:1600px">
@@ -50,19 +101,20 @@
         </div>
     </nav>
     <!-- Navbar End -->
-    <br><br><br><br> 
+    <br><br> <br><br> <br><br>
 
-    <div class="position-relative d-flex align-items-center justify-content-center spacer"> 
-        <h1 class="display-1 text-uppercase text-white hide-on-mobile" style="-webkit-text-stroke: 1px #dee2e6;">
-            Portfolio</h1>
-        <h1 class="position-absolute text-uppercase text-primary position-absolute-mobile-center">Graphic Design</h1>
+    <div class="position-relative d-flex align-items-center justify-content-center">
+        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Portfolio</h1>
+        <h1 class="position-absolute text-uppercase text-primary">Graphic Design</h1>
     </div>
+
+    <br><br>
 
     <h2 class="position-relative d-flex align-items-center justify-content-center text-uppercase text-primary mb-4">
         Business Cards</h2>
 
     <!-- First Photo Grid-->
-    <div class="w3-row-padding logo-grid spacer">
+    <div class="w3-row-padding logo-grid">
         <div class="w3-third w3-container w3-margin-bottom logo-item">
             <a href="img/gd/bc/bc1.png" data-lightbox="image-1" data-title="Event Planning Business Card">
                 <img src="img/gd/bc/bc1.png" alt="Event Planning Business Card" class="w3-hover-opacity logo-img">
@@ -79,12 +131,13 @@
             </a>
         </div>
     </div>
+    <br> <br> <br> <br>
 
     <h2 class="position-relative d-flex align-items-center justify-content-center text-uppercase text-primary mb-4">
         Posters</h2>
 
     <!-- Second Photo Grid-->
-    <div class="w3-row-padding logo-grid spacer">
+    <div class="w3-row-padding logo-grid">
         <div class="w3-third w3-container w3-margin-bottom logo-item">
             <a href="img/gd/posters/p1.png" data-lightbox="image-1" data-title="Tramore Amusement Park Poster Design">
                 <img src="img/gd/posters/p1.png" alt="Tramore Amusement Park Poster Design"
@@ -104,10 +157,12 @@
         </div>
     </div>
 
+    <br> <br> <br> <br>
+
     <h2 class="position-relative d-flex align-items-center justify-content-center text-uppercase text-primary mb-4">
         Infographics</h2>
     <!-- Third Photo Grid-->
-    <div class="w3-row-padding logo-grid spacer">
+    <div class="w3-row-padding logo-grid">
         <div class="w3-third w3-container w3-margin-bottom logo-item">
             <a href="img/gd/info/kh1.png" data-lightbox="image-1"
                 data-title="Keith Haring Infographic Brochure Design - Cover Page">
@@ -130,6 +185,98 @@
             </a>
         </div>
     </div>
+
+    <h2 class="position-relative d-flex align-items-center justify-content-center text-uppercase text-primary mb-4">
+        Logos</h2>
+
+    <!-- First Photo Grid-->
+    <div class="logo-grid">
+        <div class="logo-item">
+            <a href="img/logos/l.png" data-lightbox="image-1" data-title="Memory Lane Event Planning Logo">
+                <img src="img/logos/l.png" alt="Memory Lane Event Planning Logo" class="logo-img">
+            </a>
+            <div class="logo-text">
+                <p><b>Memory Lane Event Planning Logo</b></p>
+                <p>As part of my User Experience Design Module, I created a simple, elegant logo for a fictional event
+                    planning company I created called Memory Lane Event Planning. The logo was designed to be used on a
+                    website and business card.</p>
+            </div>
+        </div>
+        <div class="logo-item">
+            <a href="img/logos/l1.png" data-lightbox="image-1" data-title="ER Gaming Café Logo">
+                <img src="img/logos/l1.png" alt="ER Gaming Café Logo" class="logo-img">
+            </a>
+            <div class="logo-text">
+                <p><b>ER Gaming Café Logo</b></p>
+                <p>As part of my Digital Graphic Design Module, I created a custom logo for a fictional gaming café
+                    company called ER Gaming Café. The logo was designed to be used on a poster, business card,
+                    complimentary slip and more.</p>
+            </div>
+        </div>
+        <div class="logo-item">
+            <a href="img/logos/l7.png" data-lightbox="image-1" data-title="Pocket Study Logo">
+                <img src="img/logos/l7.png" alt="Pocket Study Logo" class="logo-img">
+            </a>
+            <div class="logo-text">
+                <p><b>Pocket Study Logo</b></p>
+                <p>I created this logo in my own time during the summer holidays as part of an interactive prototype
+                    design I was creating for an iOS app called Pocket Study. The logo was designed to be used on the
+                    app itself.</p>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <!-- Second Photo Grid-->
+    <div class="logo-grid">
+        <div class="logo-item">
+            <a href="img/logos/l3.png" data-lightbox="image-1"
+                data-title="Department of Computing and Mathematics Logo 1">
+                <img src="img/logos/l3.png" alt="Department of Computing and Mathematics Logo 1" class="logo-img">
+            </a>
+            <div class="logo-text">
+                <p><b>Department of Computing and Mathematics Logo 1</b></p>
+                <p>As part of my Digital Graphic Design Module, I created multiple different logo concepts and ideas for
+                    the Department of Computing and Mathematics for Waterford Institute of Technology.</p>
+            </div>
+        </div>
+        <div class="logo-item">
+            <a href="img/logos/l4.png" data-lightbox="image-1"
+                data-title="Department of Computing and Mathematics Logo 2">
+                <img src="img/logos/l4.png" alt="Department of Computing and Mathematics Logo 2" class="logo-img">
+            </a>
+            <div class="logo-text">
+                <p><b>Department of Computing and Mathematics Logo 2</b></p>
+                <p>Here is another logo created for the Department of Computing and Mathematics for Waterford Institute
+                    of Technology. </p>
+                <p>
+
+                </p>
+                <p>
+
+                </p>
+                <p>
+
+                </p>
+            </div>
+        </div>
+        <div class="logo-item">
+            <a href="img/logos/l9.png" data-lightbox="image-1" data-title="Custom Keith Haring Logo">
+                <img src="img/logos/l9.png" alt="Custom Keith Haring Logo" class="logo-img">
+            </a>
+            <div class="logo-text">
+                <p><b>Custom Keith Haring Logos</b></p>
+                <p>As part of my Advanced Graphic Design Module, I created two separate custom-made logos to use on an
+                    Infographic that I designed for Keith Haring. The chosen Logo for the infographic was the logo on
+                    top.</p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <br><br><br><br>
 
     <script>
         // Script to open and close sidebar
